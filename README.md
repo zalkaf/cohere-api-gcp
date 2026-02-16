@@ -1,11 +1,11 @@
 # cohere-api-gcp
-Flask API server powered by Cohere's language models, deployed on Google Cloud Platform with GPU support.
+API server powered by Cohere's language models, deployed on Google Cloud Platform with GPU support.
 
 ## Features
 
 - **Cohere Integration**: integration with Cohere's latest API models (Command-R-Plus, Embeddings)
 - **GPU-Enabled VM**: Ubuntu 22.04 instance with NVIDIA T4 GPU on GCP
-- **RESTful API**: Flask-based API 
+- **RESTful API**: Flask-based API [still under work]
 
 ## Prerequisites
 
@@ -105,7 +105,6 @@ Cohere API, I used the free tier
 cohere-gcp-gpu/
 ├── README.md
 ├── requirements.txt
-├── api_server.py          # Flask API server
 ├── test_cohere.py         # Test script
 ```
 
